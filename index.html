@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume & Portfolio | ประวัติส่วนตัว</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-glass sticky-top py-3">
+        <div class="container">
+            <a class="navbar-brand text-white d-flex align-items-center" href="#">
+                <span class="gradient-text me-2">Resume</span>Profile
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">เกี่ยวกับฉัน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">ทักษะความสามารถ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">ประสบการณ์ทำงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">การศึกษา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">ติดต่อ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container py-5" id="home">
+        <!-- Hero Section -->
+        <div class="row align-items-center mb-5 gy-4">
+            <div class="col-lg-5 text-center text-lg-start">
+                <div class="profile-container mb-4">
+                    <div class="profile-ring"></div>
+                    <div class="profile-ring-glow"></div>
+                    <img src="img/01.jfif" alt="โปรไฟล์ของคุณ" class="profile-img">
+                </div>
+            </div>
+            <div class="col-lg-7 text-center text-lg-start">
+                <span class="badge-custom mb-3">พร้อมทำงาน (Available for Hire)</span>
+                <h1 class="display-4 fw-bold mb-2">
+                    สวัสดีครับผม <span class="gradient-text">นายเนติพงศ์ ธรรมมา</span>
+                </h1>
+                <h3 class="h4 text-secondary mb-4">Full Stack Developer & UI/UX Designer</h3>
+                <p class="lead text-muted mb-4" style="max-width: 600px;">
+                    นักพัฒนาเว็บไซต์และซอฟต์แวร์ผู้หลงใหลในการสร้างสรรค์งานดิจิทัลที่มีคุณภาพสูง
+                    ทั้งการออกแบบหน้าที่ใช้งานง่าย (Frontend) และระบบหลังบ้านที่เสถียรปลอดภัย (Backend)
+                    เพื่อขับเคลื่อนเป้าหมายทางธุรกิจ
+                </p>
+                <div class="d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
+                    <a href="#contact" class="btn btn-premium">ติดต่อฉัน</a>
+                    <a href="#experience" class="btn btn-outline-premium">ดูผลงาน</a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5" style="border-color: var(--border-glass);">
+
+        <!-- Content Grid -->
+        <div class="row gy-4">
+            <!-- Left Column: About Me, Skills & Contact Info -->
+            <div class="col-lg-4">
+                <!-- About Me Card -->
+                <div class="glass-card p-4 mb-4" id="about">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-person-circle text-primary me-2"></i> เกี่ยวกับฉัน
+                    </h4>
+                    <p class="text-secondary mb-3">
+                        ผมเป็นนักพัฒนาที่มีความกระตือรือร้นและรักการเรียนรู้สิ่งใหม่ๆ อยู่เสมอ
+                        มุ่งมั่นสร้างสรรค์งานที่มีประสิทธิภาพสูงสุดด้วยเครื่องมือและเทคโนโลยีสมัยใหม่
+                        เพื่อตอบโจทย์ความต้องการของผู้ใช้งานอย่างแท้จริง
+                    </p>
+                    <p class="text-secondary mb-0">
+                        <strong>ที่อยู่ปัจจุบัน:</strong> อุบลราชธานี, ประเทศไทย
+                    </p>
+                </div>
+
+                <!-- Contact Info Card -->
+                <div class="glass-card p-4 mb-4" id="contact">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i> ข้อมูลติดต่อ
+                    </h4>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="contact-icon-box">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">อีเมล</div>
+                            <div class="text-white">poommuse46@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="contact-icon-box">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">เบอร์โทรศัพท์</div>
+                            <div class="text-white">082-9299-788</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <div class="contact-icon-box">
+                            <i class="bi bi-github"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">GitHub</div>
+                            <div class="text-white">github.com/poommuse29</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Card -->
+                <div class="glass-card p-4" id="education">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-mortarboard-fill text-primary me-2"></i> ประวัติการศึกษา
+                    </h4>
+                    <div class="mb-3">
+                        <div class="text-white fw-bold">กำลังศึกษาปริญญาตรี วิทยาศาสตรบัณฑิต</div>
+                        <div class="gradient-text-cyan small fw-medium">สาขาวิทยาการคอมพิวเตอร์</div>
+                        <div class="text-muted small">มหาวิทยาลัยราชภัฏศรีสะเกษ</div>
+                    </div>
+                    <div>
+                        <div class="text-white fw-bold">มัธยมศึกษาตอนปลาย</div>
+                        <div class="gradient-text-cyan small fw-medium">แผนการเรียนวิทยาศาสตร์ - คณิตศาสตร์</div>
+                        <div class="text-muted small">โรงเรียนนาจะหลวย</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Skills Progress, Work Experience Timeline -->
+            <div class="col-lg-8">
+                <!-- Skills Progress Card -->
+                <div class="glass-card p-4 mb-4" id="skills">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-cpu-fill text-primary me-2"></i> ทักษะความสามารถ
+                    </h4>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>HTML5 / CSS3 </span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" data-width="50%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>React.js / Vue.js</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>Node.js / Express</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>Python / Django</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill cyan" data-width="80%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>SQL / PostgreSQL / MongoDB</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill cyan" data-width="85%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill Item -->
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>Docker & Git Workflow</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill cyan" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tech Tags -->
+                    <div class="mt-4 pt-3 border-top" style="border-color: rgba(255, 255, 255, 0.05) !important;">
+                        <h6 class="text-white mb-3">เครื่องมือและเทคโนโลยีเพิ่มเติม:</h6>
+                        <span class="badge-custom">TypeScript</span>
+                        <span class="badge-custom">Next.js</span>
+                        <span class="badge-custom">Bootstrap 5</span>
+                        <span class="badge-custom">TailwindCSS</span>
+                        <span class="badge-custom">Django REST Framework</span>
+                        <span class="badge-custom">Redis</span>
+                        <span class="badge-custom">Git/GitHub</span>
+                        <span class="badge-custom">Figma</span>
+                    </div>
+                </div>
+
+                <!-- Experience timeline Card -->
+                <div class="glass-card p-4" id="experience">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-briefcase-fill text-primary me-2"></i> ประสภการณ์ทำงาน & โปรเจกต์
+                    </h4>
+
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
+                            <h5 class="text-white mb-0">Senior Full-Stack Developer</h5>
+                            <span class="badge bg-primary rounded-pill">พ.ศ. 2568 - ปัจจุบัน</span>
+                        </div>
+                        <div class="text-secondary small fw-medium mb-3">Tech Innovators Co., Ltd.</div>
+                        <p class="text-muted">
+                            เป็นผู้นำทีมพัฒนาและออกแบบสถาปัตยกรรมเว็บแอปพลิเคชันหลักขององค์กร ปรับปรุงระบบหลังบ้านโดยใช้
+                            Django และ Node.js เพื่อรองรับปริมาณผู้ใช้งานเพิ่มขึ้น 200% พัฒนาระบบ API
+                            ที่ปลอดภัยและมีประสิทธิภาพในการเชื่อมต่อกับบริการภายนอก
+                        </p>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
+                            <h5 class="text-white mb-0">Frontend Developer</h5>
+                            <span class="badge bg-secondary rounded-pill">พ.ศ. 2566 - 2568</span>
+                        </div>
+                        <div class="text-secondary small fw-medium mb-3">Web Solutions agency</div>
+                        <p class="text-muted">
+                            ดูแลการพัฒนาหน้าบ้าน (Frontend) ของเว็บไซต์ลูกค้าองค์กรต่าง ๆ โดยใช้ React และ Next.js
+                            ทำงานร่วมกับ UI/UX Designer เพื่อแปลการออกแบบใน Figma ให้เป็นหน้าเว็บจริงแบบ Responsive
+                            ที่โหลดเร็วและสอดคล้องตามหลัก SEO
+                        </p>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item mb-0">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
+                            <h5 class="text-white mb-0">Full-Stack Intern</h5>
+                            <span class="badge bg-secondary rounded-pill">พ.ศ. 2565 (สหกิจศึกษา)</span>
+                        </div>
+                        <div class="text-secondary small fw-medium mb-3">Software Labs Thailand</div>
+                        <p class="text-muted">
+                            ฝึกงานในฐานะนักพัฒนาโปรแกรมประเภท Full Stack ช่วยเหลือทีมในการเขียนโค้ด ทดสอบระบบ (Unit
+                            Testing) และจัดเตรียมฐานข้อมูลในการอัปเกรดฟีเจอร์ใหม่ ๆ ของระบบบริหารจัดการทรัพยากรบุคคล
+                            (HRMS)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-5 text-center text-muted py-4 border-top"
+            style="border-color: var(--border-glass) !important;">
+            <p class="mb-0">© 2026 ณัฐพล สุขใจ. All Rights Reserved. Created with ❤️ and premium styling.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5.3 JavaScript Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <!-- Trigger skill bars sliding animation on page load -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Delay slightly to ensure smooth loading transition
+            setTimeout(() => {
+                const fillbars = document.querySelectorAll('.progress-bar-fill');
+                fillbars.forEach(bar => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width;
+                });
+            }, 300);
+        });
+    </script>
+</body>
+
+</html>
