@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume & Portfolio | ประวัติส่วนตัว</title>
+    <title>Resume | ประวัติส่วนตัว</title>
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#skills">ทักษะความสามารถ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experience">ประสบการณ์ทำงาน</a>
+                        <a class="nav-link" href="#experience">ผลงานและโปรเจกต์</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#education">การศึกษา</a>
@@ -66,9 +66,12 @@
                 <h1 class="display-4 fw-bold mb-2">
                     สวัสดีครับผม <span class="gradient-text">นายเนติพงศ์ ธรรมมา</span>
                 </h1>
-                <h3 class="h4 text-secondary mb-4">นักศึกษาชั้นปีที่ 2 สาขาวิทยาการคอมพิวเตอร์ | Junior Web Developer</h3>
+                <h3 class="h4 text-secondary mb-4">นักศึกษาชั้นปีที่ 2 สาขาวิทยาการคอมพิวเตอร์ | Junior Web Developer
+                </h3>
                 <p class="lead text-muted mb-4" style="max-width: 600px;">
-                    นักศึกษาสาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 2 ผู้มีความหลงใหลในการพัฒนาเทคโนโลยีเว็บแอปพลิเคชัน มีความกระตือรือร้นในการเขียนโค้ด ออกแบบ UI/UX และพร้อมเรียนรู้สิ่งใหม่ ๆ เพื่อนำความรู้มาช่วยขับเคลื่อนโครงการจริงในการทำงาน
+                    นักศึกษาสาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 2 ผู้มีความหลงใหลในการพัฒนาเทคโนโลยีเว็บแอปพลิเคชัน
+                    มีความกระตือรือร้นในการเขียนโค้ด ออกแบบ UI/UX และพร้อมเรียนรู้สิ่งใหม่ ๆ
+                    เพื่อนำความรู้มาช่วยขับเคลื่อนโครงการจริงในการทำงาน
                 </p>
                 <div class="d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
                     <a href="#contact" class="btn btn-premium">ติดต่อฉัน</a>
@@ -89,7 +92,9 @@
                         <i class="bi bi-person-circle text-primary me-2"></i> เกี่ยวกับฉัน
                     </h4>
                     <p class="text-secondary mb-3">
-                        ผมเป็นนักศึกษาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 2 ที่ชื่นชอบการพัฒนาเว็บไซต์และแก้ปัญหาต่าง ๆ สนใจเทคโนโลยีเว็บทั้งส่วนหน้า (Frontend) และส่วนหลัง (Backend) ปัจจุบันกำลังมองหาโอกาสฝึกงานหรือทำโปรเจกต์ที่ท้าทายใหม่ ๆ
+                        ผมเป็นนักศึกษาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 2 ที่ชื่นชอบการพัฒนาเว็บไซต์และแก้ปัญหาต่าง ๆ
+                        สนใจเทคโนโลยีเว็บทั้งส่วนหน้า (Frontend) และส่วนหลัง (Backend)
+                        ปัจจุบันกำลังมองหาโอกาสฝึกงานหรือทำโปรเจกต์ที่ท้าทายใหม่ ๆ
                     </p>
                     <p class="text-secondary mb-0">
                         <strong>ที่อยู่ปัจจุบัน:</strong> อุบลราชธานี, ประเทศไทย
@@ -134,7 +139,7 @@
                 </div>
 
                 <!-- Education Card -->
-                <div class="glass-card p-4" id="education">
+                <div class="glass-card p-4 mb-4" id="education">
                     <h4 class="mb-4 d-flex align-items-center">
                         <i class="bi bi-mortarboard-fill text-primary me-2"></i> ประวัติการศึกษา
                     </h4>
@@ -148,6 +153,40 @@
                         <div class="gradient-text-cyan small fw-medium">แผนการเรียนวิทยาศาสตร์ - คณิตศาสตร์</div>
                         <div class="text-muted small">โรงเรียนนาจะหลวย</div>
                     </div>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="glass-card p-4" id="contact-form-card">
+                    <h4 class="mb-4 d-flex align-items-center">
+                        <i class="bi bi-send-fill text-primary me-2"></i> ติดต่อฉัน
+                    </h4>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="senderName" class="form-label text-secondary small">ชื่อของคุณ</label>
+                            <input type="text" class="form-control glass-input" id="senderName"
+                                placeholder="เช่น สมชาย ใจดี" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senderEmail" class="form-label text-secondary small">อีเมลติดต่อกลับ</label>
+                            <input type="email" class="form-control glass-input" id="senderEmail"
+                                placeholder="example@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="msgSubject" class="form-label text-secondary small">หัวข้อเรื่อง</label>
+                            <input type="text" class="form-control glass-input" id="msgSubject"
+                                placeholder="เช่น ติดต่อสอบถาม / ฝึกงาน" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageText" class="form-label text-secondary small">ข้อความ</label>
+                            <textarea class="form-control glass-input" id="messageText" rows="4"
+                                placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-premium w-100 d-flex align-items-center justify-content-center gap-2">
+                            <span>ติดต่อฉัน</span>
+                            <i class="bi bi-send"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -164,18 +203,7 @@
                             <!-- Skill Item -->
                             <div class="progress-container">
                                 <div class="progress-label">
-                                    <span>HTML5 / CSS3 </span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="progress-bar-bg">
-                                    <div class="progress-bar-fill" data-width="85%"></div>
-                                </div>
-                            </div>
-
-                            <!-- Skill Item -->
-                            <div class="progress-container">
-                                <div class="progress-label">
-                                    <span>React.js / Vue.js</span>
+                                    <span>Git Version Control</span>
                                     <span>75%</span>
                                 </div>
                                 <div class="progress-bar-bg">
@@ -186,11 +214,11 @@
                             <!-- Skill Item -->
                             <div class="progress-container">
                                 <div class="progress-label">
-                                    <span>Node.js / Express</span>
-                                    <span>70%</span>
+                                    <span>Python / Django</span>
+                                    <span>60%</span>
                                 </div>
                                 <div class="progress-bar-bg">
-                                    <div class="progress-bar-fill" data-width="70%"></div>
+                                    <div class="progress-bar-fill" data-width="60%"></div>
                                 </div>
                             </div>
                         </div>
@@ -199,33 +227,22 @@
                             <!-- Skill Item -->
                             <div class="progress-container">
                                 <div class="progress-label">
-                                    <span>Python / Django</span>
-                                    <span>75%</span>
+                                    <span>Lua</span>
+                                    <span>55%</span>
                                 </div>
                                 <div class="progress-bar-bg">
-                                    <div class="progress-bar-fill cyan" data-width="75%"></div>
+                                    <div class="progress-bar-fill cyan" data-width="55%"></div>
                                 </div>
                             </div>
 
                             <!-- Skill Item -->
                             <div class="progress-container">
                                 <div class="progress-label">
-                                    <span>SQL / PostgreSQL / MongoDB</span>
-                                    <span>70%</span>
+                                    <span>HTML / CSS</span>
+                                    <span>40%</span>
                                 </div>
                                 <div class="progress-bar-bg">
-                                    <div class="progress-bar-fill cyan" data-width="70%"></div>
-                                </div>
-                            </div>
-
-                            <!-- Skill Item -->
-                            <div class="progress-container">
-                                <div class="progress-label">
-                                    <span>Git Version Control</span>
-                                    <span>80%</span>
-                                </div>
-                                <div class="progress-bar-bg">
-                                    <div class="progress-bar-fill cyan" data-width="80%"></div>
+                                    <div class="progress-bar-fill cyan" data-width="40%"></div>
                                 </div>
                             </div>
                         </div>
@@ -234,14 +251,12 @@
                     <!-- Tech Tags -->
                     <div class="mt-4 pt-3 border-top" style="border-color: rgba(255, 255, 255, 0.05) !important;">
                         <h6 class="text-white mb-3">เครื่องมือและเทคโนโลยีเพิ่มเติม:</h6>
-                        <span class="badge-custom">TypeScript</span>
-                        <span class="badge-custom">Next.js</span>
-                        <span class="badge-custom">Bootstrap 5</span>
-                        <span class="badge-custom">TailwindCSS</span>
-                        <span class="badge-custom">Django REST Framework</span>
-                        <span class="badge-custom">Redis</span>
-                        <span class="badge-custom">Git/GitHub</span>
-                        <span class="badge-custom">Figma</span>
+                        <span class="badge-custom">Git / GitHub</span>
+                        <span class="badge-custom">Python</span>
+                        <span class="badge-custom">Django</span>
+                        <span class="badge-custom">Lua</span>
+                        <span class="badge-custom">HTML5 / CSS3</span>
+                        <span class="badge-custom">VS Code</span>
                     </div>
                 </div>
 
@@ -254,36 +269,46 @@
                     <!-- Timeline Item 1 -->
                     <div class="timeline-item">
                         <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
-                            <h5 class="text-white mb-0">ระบบเว็บจัดการงานและการเรียน (Study Planner App)</h5>
+                            <h5 class="text-white mb-0">ระบบเว็บคำนวณและเก็บบันทึกผลการเรียน (Student Grade & GPA
+                                Tracker)</h5>
                             <span class="badge bg-primary rounded-pill">พ.ศ. 2568 (โปรเจกต์รายวิชา)</span>
                         </div>
-                        <div class="text-secondary small fw-medium mb-3">โครงการพัฒนาในรายวิชา Web Programming</div>
+                        <div class="text-secondary small fw-medium mb-3">โปรเจกต์ในรายวิชาการเขียนโปรแกรมบนเว็บ</div>
                         <p class="text-muted">
-                            พัฒนาเว็บแอปพลิเคชันสำหรับบริหารตารางเรียนและติดตามงานค้าง โดยออกแบบหน้าบ้านด้วย HTML, CSS, JavaScript และหลังบ้านโดยใช้ Django Framework มีการออกแบบให้ผู้ใช้บันทึกแผนและเก็บข้อมูลผ่าน Firebase
+                            พัฒนาเว็บแอปพลิเคชันสำหรับคำนวณเกรดเฉลี่ยสะสม (GPA)
+                            และบันทึกคะแนนในแต่ละวิชาเพื่อวางแผนการเรียน ออกแบบส่วนหน้าบ้านด้วย HTML, CSS (Bootstrap 5)
+                            และส่วนหลังบ้านด้วย Python (Django) โดยรองรับการบันทึกข้อมูลเข้าสู่ฐานข้อมูล SQLite
                         </p>
                     </div>
 
                     <!-- Timeline Item 2 -->
                     <div class="timeline-item">
                         <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
-                            <h5 class="text-white mb-0">ผู้พัฒนาเว็บไซต์ชมรมคอมพิวเตอร์</h5>
-                            <span class="badge bg-secondary rounded-pill">พ.ศ. 2567 - 2568</span>
+                            <h5 class="text-white mb-0">โปรเจกต์สร้างเกมและพัฒนาเกมด้วย Roblox Studio โดยใช้ภาษา Lua
+                            </h5>
+                            <span class="badge bg-secondary rounded-pill">พ.ศ. 2568 (โปรเจกต์ส่วนตัว)</span>
                         </div>
-                        <div class="text-secondary small fw-medium mb-3">กิจกรรมและผลงานระดับสาขา</div>
+                        <div class="text-secondary small fw-medium mb-3">การเรียนรู้และพัฒนาเกมนอกเวลาเรียน</div>
                         <p class="text-muted">
-                            รับบทบาทออกแบบและเขียนโค้ดหน้าเว็บแสดงผลกิจกรรม (Landing Page) ของชมรม โดยเน้นความเร็วในการโหลด การใช้งานที่ลื่นไหลแบบ Responsive รองรับทั้งมือถือและคอมพิวเตอร์ด้วย CSS Grid และ Bootstrap 5
+                            สร้างมิเกมใน Roblox Studio ด้วยภาษา Lua แนวเกมเป็นแนว Simulator และ Action
+                            ตัวเกมเป็นแนวฆ่ามอนเตอร์และเอาเงินไปอัพสกิลและอาวุธ โดยใช้ ReplicatedStorage ในการเก็บค่า
+                            และใช้ TweenService ในการเคลื่อนย้ายตัวละคร และใช้ remote event ในการสื่อสารระหว่าง Client
+                            และ Server
                         </p>
                     </div>
 
                     <!-- Timeline Item 3 -->
                     <div class="timeline-item mb-0">
                         <div class="d-flex justify-content-between align-items-start flex-wrap mb-1">
-                            <h5 class="text-white mb-0">ประกวดแนวคิดและโครงงานนวัตกรรม (Hackathon)</h5>
+                            <h5 class="text-white mb-0">บอทช่วยจัดการเซิร์ฟเวอร์ดิสคอร์ดห้องเรียน (Discord Class
+                                Assistant Bot)</h5>
                             <span class="badge bg-secondary rounded-pill">พ.ศ. 2567</span>
                         </div>
-                        <div class="text-secondary small fw-medium mb-3">กิจกรรมการแข่งขันภายในมหาวิทยาลัย</div>
+                        <div class="text-secondary small fw-medium mb-3">กิจกรรมแบ่งปันเครื่องมือในกลุ่มนักศึกษา</div>
                         <p class="text-muted">
-                            ร่วมกับทีมเสนอและคิดค้นโซลูชันระบบนำทางในอาคารเรียน ทำหน้าที่พัฒนาระบบตัวแบบจำลอง (Prototype) ส่วนหน้าบ้าน และทดสอบการเชื่อมต่อ API ของฐานข้อมูลแผนที่
+                            ร่วมพัฒนาบอทสำหรับใช้งานในห้องแชตดิสคอร์ดกลุ่มเรียน ด้วยภาษา Python (discord.py)
+                            เพื่อช่วยแจ้งเตือนตารางเรียน ลิงก์เข้าห้องเรียนออนไลน์ และแชร์ข้อมูลวิชาการ โดยใช้
+                            Git/GitHub สำหรับควบคุมและจัดการเวอร์ชันของโค้ดร่วมกันในทีม
                         </p>
                     </div>
                 </div>
@@ -305,7 +330,26 @@
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
 
-    <!-- Trigger skill bars sliding animation on page load -->
+    <!-- Toast Container for Contact Form Feedback -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+        <div id="successToast" class="toast glass-card border-0" role="alert" aria-live="assertive" aria-atomic="true"
+            data-bs-delay="4000">
+            <div
+                class="toast-header bg-transparent border-bottom-0 text-white d-flex align-items-center justify-content-between pt-3 px-3">
+                <strong class="me-auto d-flex align-items-center">
+                    <i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>
+                    ส่งข้อความสำเร็จ
+                </strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-secondary pb-3 px-3">
+                ขอบคุณที่ติดต่อเข้ามาครับ! ผมได้รับข้อความของคุณแล้วและจะตอบกลับโดยเร็วที่สุดครับ
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Section -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Delay slightly to ensure smooth loading transition
@@ -316,6 +360,41 @@
                     bar.style.width = width;
                 });
             }, 300);
+
+            // Contact Form Submit Handler
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+
+                    const submitBtn = contactForm.querySelector('button[type="submit"]');
+                    const originalBtnContent = submitBtn.innerHTML;
+
+                    // Show loading state
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = `
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        <span>กำลังส่งข้อความ...</span>
+                    `;
+
+                    // Simulate API request
+                    setTimeout(() => {
+                        // Reset button state
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnContent;
+
+                        // Clear form input fields
+                        contactForm.reset();
+
+                        // Show Bootstrap success toast
+                        const toastEl = document.getElementById('successToast');
+                        if (toastEl) {
+                            const toast = new bootstrap.Toast(toastEl);
+                            toast.show();
+                        }
+                    }, 1500);
+                });
+            }
         });
     </script>
 </body>
